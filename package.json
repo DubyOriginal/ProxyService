@@ -1,0 +1,28 @@
+{
+  "name": "proxy_service",
+  "version": "0.1.0",
+  "description": "proxy",
+  "main": "ProxyService.js",
+  "dependencies": {
+    "config.json": "0.0.4",
+    "express": "^4.15.4",
+    "http-proxy": "^1.16.2",
+    "request": "^2.81.0",
+    "router": "^1.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "[git-url-of-your-project]"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-util": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dubravko Vrbancic",
+  "license": "ISC"
+}

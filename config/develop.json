@@ -1,0 +1,17 @@
+{
+  "server": {
+    "user": "duby",
+    "ip": "localhost",
+    "dns": "duby.ddns.net"
+  },
+  "service": {
+    "version": "1.0",
+    "mode": "DEVELOP",
+    "path": "/home/duby/ProxyService"
+  },
+  "proxy_service":{
+    "port": 2200,
+    "port_monit": 2201,
+    "port_wiki": 2202
+  }
+}
