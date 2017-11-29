@@ -33,7 +33,6 @@ function restartProxy(server_user, server_ip) {
   let addServiceName = "ProxyService";
   let addLogTS = "--log-date-format \'YYYY-MM-DD HH:mm:ss\'";
   let addPSNumber = "-i 1";
-  //console.log("CMD: " + "ssh %s@%s \"cd %s; pm2 start ProxyService.js %s %s\"", config.server.user, config.server.ip, config.service.path, addLogTS, addPSNumber );
   exec("ssh %s@%s \"cd %s; NODE_ENV=LIVE pm2 start ProxyService.js --name %s %s %s\"", config.server.user, config.server.ip, config.service.path, addServiceName, addLogTS, addPSNumber);
 
   console.log("------------------------------------------------------------");
